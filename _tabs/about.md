@@ -10,10 +10,10 @@ Name: 정의찬
 ID: define_chan   
 Email: euchan5791@naver.com
 
-Hello😄, I'm currently majoring in software at Ajou University.
+Hello😄, I'm currently majoring in software at Ajou University.   
 I really like studying game development and algorithms.
 
-I started as a hobby and now I dream of becoming a programmer.
+I started as a hobby and now I dream of becoming a programmer.   
 Someday, I want to invite you to the world I created.
 
 ### 🛠 Tech Stack
