@@ -23,9 +23,7 @@ title: define_chan                          # the main title
 tagline: 찬이의 개발노트   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  define_chan, blog, 개발노트
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://eucha09.github.io/'
@@ -49,8 +47,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
-
+google_site_verification: 8Aw6qmMaoaUvWt_-gVDxdtZWOBsEqBbkU2T_AuLtrHA   # fill in to your verification string
 # ↑ --------------------------
 
 
