@@ -8,7 +8,7 @@ categories: [웹 서버(Web Server), "고급 C# 문법"]
 tags: [동기, 비동기, Async, Await]     # TAG names should always be lowercase
 ---
 
-## 동기(Synchronous)와 비동기(Asynchronous)
+## **동기(Synchronous)와 비동기(Asynchronous)**
 
 **동기(Synchronous)**란 동시에 일어난다는 의미로 한자리에서 요청과 동시에 결과가 일어난다. 그렇기에 **결과가 발생해야지만 다음 동작을 수행할 수 있다.**
 
@@ -19,7 +19,7 @@ tags: [동기, 비동기, Async, Await]     # TAG names should always be lowerca
 비동기가 멀티쓰레드와 비슷하게 동작하다보니 같은 것이라고 생각할 수 있는데 비동기와 멀티쓰레드는 다른 개념이다. 비동기라고 꼭 멀티쓰레드로 동작하는 것은 아니다.   
 예를 들자면 유니티에서의 코루틴(Coroutine) 또한 일종의 비동기라고 할 수 있지만 싱글쓰레드로 동작한다.
 
-## Async, Await
+## **Async, Await**
 
 C#에서는 async와 await를 사용하여 비동기 프로그래밍을 할 수 있다.
 
@@ -175,7 +175,7 @@ TestAsync end
 while start
 ```
 
-## Async, Await 참고
+## **Async, Await 참고**
 
 Microsoft 문서를 보면 Async, Await에 대해 참고하기 좋다.   
 [https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
