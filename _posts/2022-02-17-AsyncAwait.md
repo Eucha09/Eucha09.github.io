@@ -198,7 +198,7 @@ Microsoft 문서를 보면 Async, Await에 대해 참고하기 좋다.
 _출처:[동기적 처리](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)_
 
 30분이 걸리는 데 생각해보면 비효율적이라는 것을 알 수 있다.   
-Fly eggs와 Fry bacon, Toast bread는 굳이 순서대로 처리할 필요없고 동시에 수행해도 문제가 없기 때문이다.
+pan 데워지기를 기다리는 동안 바로 eggs와 bacon을 올리면되고 eggs와 bacon이 익기를 기다리는 동안 식빵을 토스트기에 넣어두면 되기 때문이다.
 
 이부분에 대해서 비동기적으로 처리할 경우
 
