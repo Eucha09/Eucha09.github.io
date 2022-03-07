@@ -189,7 +189,7 @@ _Test!라고 입력한 후 submit을 누른 화면_
 MVC 방식으로도 코드를 작성해보고 Razor Pages 방식으로도 코드를 작성해보았다면 전체적으로 비교적 Razor Pages 방식이 단순하다라는 것을 느낄 수 있을 것이다.
 
 MVC의 경우 Model-View_Controller가 완전 분리되어 있다보니 View에서 해당 Controller를 연동시켜줄 때 코드 상에서 지정해주어야하고 Controller와 View가 1대 다로 연결될 수도 있기에 코드가 길어지거나 관리하기가 복잡해 질 수 있다.   
-그러나 Razor Pages의 경우 각 View마다 해당 Controller가 1대 1로 매핑이 되어 있기 때문에 이 부분에 대해선 실수를 줄일 수 있거나 관리하기가 편할 수 있다.
+그러나 Razor Pages의 경우 각 View마다 해당 Controller가 1대 1로 매핑이 되어 있기 때문에 이 부분에 대해선 실수를 줄일 수 있고 관리하기가 편할 수 있다.
 
 추가적으로 MVC에선 Startup.cs에서 endpoints를 설정해줄 때 pattern을 이용해 매핑을 해주었는데 Razor Pages에선 따로 pattern을 이용해 설정해주지 않은 것을 볼 수 있다.   
 Razor Pages의 경우 '{웹서버주소}/Index'라고 입력하면 알아서 Pages 폴더 안에 있는 Index 페이지와 매핑해준다. 또한 실행시켜보면 주소란에 따로 /Index가 표시되어 있지 않은데 기본값이 /Index라는 것을 알 수 있다.
