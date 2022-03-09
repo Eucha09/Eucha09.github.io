@@ -12,13 +12,15 @@ tags: [Blazor, Blazor Server, Razor Component, Bootstrap]     # TAG names should
 
 **Blazor**는 Microsoft에서 개발한 **오픈소스 웹 개발 프레임워크**이다. 가장 큰 특징으로는 **.NET Core 기반의 C#으로 웹 앱을 개발할 수 있다.**
 
+Blazor에서는 Blazor Server와 Blazor Client(WebAssembly) 형식이 있다.
+ 
 ### **Blazor Server**
 
-Blazor Server는 ASP.NET Core 서버와 Razor 엔진을 이용한 에디션으로, 서버 측에서 동작한다.
+Blazor Server는 ASP.NET Core 서버와 Razor 엔진을 이용한 에디션으로, 서버에서 대부분의 렌더링과 프로세싱이 이루어지는 것이 특징이다.
 
-### **Blazor WebAssembly**
+### **Blazor Client(WebAssembly)**
 
-SPA를 구현하는 에디션으로, WebAssembly의 도움으로 브라우저 client에서 실행된다.
+Blazor WebAssembly라고 불리기도 하는데, Blazor Server 에디션과 반대로 클라이언트에서 대부분의 렌더링이 이루어진다.
 
 ## **Blazor Server 프로젝트 생성**
 
