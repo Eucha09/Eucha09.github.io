@@ -12,9 +12,9 @@ tags: [Blazor, Blazor Client, SPA]     # TAG names should always be lowercase
 
 **Blazor**는 Microsoft에서 개발한 **오픈소스 웹 개발 프레임워크**이다. 가장 큰 특징으로는 **.NET Core 기반의 C#으로 웹 앱을 개발할 수 있다.**
 
-## **SPA(Single Page Application)**
+Blazor는 **SPA(Single Page Application)** 방식을 사용하고 서버측에서 동작하는 **Blazor Server**와 클라이언트측에서 동작하는 **Blazor Client(WebAssembly)** 형식이 있다.
 
-Blazor는 SPA(Single Page Application) 방식을 사용한다.
+## **SPA(Single Page Application)**
 
 **SPA(Single Page Application)**는 **서버로부터 완전한 새로운 페이지를 불러오지 않고 현재의 페이지를 동적으로 다시 작성**함으로써 사용자와 소통하는 웹 애플리케이션을 말한다.
 
@@ -48,7 +48,7 @@ _출처:[Blazor Server](https://docs.microsoft.com/ko-kr/aspnet/core/blazor/?vie
 
 Blazor WebAssembly라고 불리기도 하는데, Blazor Server 에디션과 반대로 클라이언트에서 대부분의 렌더링이 이루어진다. 따라서 서버의 부담은 감소하지만 클라이언트의 부담이 높아지는 동시에 클라이언트가 처음 내려받는 파일의 용량도 증가한다. 하지만 서버를 거치지 않고 클라이언트에서 모든 로직이 실행되기 때문에 일반적인 윈도우 어플리케이션에 준하는 반응속도와 풍부한 사용자 경험을 제공할 수 있다는 장점이 있다.
 
-쉽게 말해 처음 접속할 때 필요한 모든 것들을 로드받고 이후에는 서버와 어떠한 통신도 하지 않으면서 알아서 혼자 잘 동작한다는 의미이다.
+쉽게 말해 처음 접속할 때 필요한 모든 것들을 로드받고 이후에는 서버와 어떠한 통신도 하지 않으면서 알아서 혼자 잘 동작한다.
 
 ![Blazor WebAssembly](/assets/img/posts/webserver/blazor-webassembly.png){: w="500"}
 _출처:[Blazor Client](https://docs.microsoft.com/ko-kr/aspnet/core/blazor/?view=aspnetcore-6.0)_

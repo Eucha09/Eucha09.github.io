@@ -12,7 +12,7 @@ tags: [WebAPI]     # TAG names should always be lowercase
 
 **WebAPI**는 **웹 서버 또는 웹 브라우를 위한 인터페이스**를 말한다.
 
-WebAPI 프로젝트를 MVC 구조와 비교하자면 Model-View-Controller에서 View가 빠진 느낌이라고 생각하면 편할 것 같다.
+WebAPI 프로젝트를 MVC 구조와 비교하자면 Model-View-Controller에서 View가 빠진 느낌이라고 생각하면 이해하기 편하다.
 
 ## **WebAPI 프로젝트 생성**
 
