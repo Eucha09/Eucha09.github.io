@@ -1,10 +1,10 @@
 ---
-title: "[서버] Interlocked"
+title: "[멀티쓰레드 프로그래밍] Interlocked"
 author:
   name: define_chan
   link: https://eucha09.github.io/about/
 date: 2022-02-23 14:41:00 +0900
-categories: [서버(Server), 멀티쓰레드 프로그래밍(Multi-thread programming)]
+categories: [서버, 멀티쓰레드 프로그래밍]
 tags: [경쟁상태, Race Condition, Interlocked, 원자성, Atomic]     # TAG names should always be lowercase
 ---
 

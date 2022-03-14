@@ -1,10 +1,10 @@
 ---
-title: "[웹 서버] Async, Await"
+title: "[고급 C# 문법] Async, Await"
 author:
   name: define_chan
   link: https://eucha09.github.io/about/
 date: 2022-02-17 14:36:00 +0900
-categories: [웹 서버(Web Server), "고급 C# 문법"]
+categories: [웹 서버, "고급 C# 문법"]
 tags: [동기, 비동기, Async, Await]     # TAG names should always be lowercase
 ---
 

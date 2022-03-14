@@ -1,10 +1,10 @@
 ---
-title: "[웹 서버] Hello Razor Pages"
+title: "[ASP.NET Core 둘러보기] Hello Razor Pages"
 author:
   name: define_chan
   link: https://eucha09.github.io/about/
 date: 2022-03-03 15:18:00 +0900
-categories: [웹 서버(Web Server), ASP.NET Core 둘러보기]
+categories: [웹 서버, ASP.NET Core 둘러보기]
 tags: [Razor Pages]     # TAG names should always be lowercase
 ---
 

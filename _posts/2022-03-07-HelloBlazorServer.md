@@ -1,10 +1,10 @@
 ---
-title: "[웹 서버] Hello Blazor Server"
+title: "[ASP.NET Core 둘러보기] Hello Blazor Server"
 author:
   name: define_chan
   link: https://eucha09.github.io/about/
 date: 2022-03-07 17:56:00 +0900
-categories: [웹 서버(Web Server), ASP.NET Core 둘러보기]
+categories: [웹 서버, ASP.NET Core 둘러보기]
 tags: [Blazor, Blazor Server, Razor Component, Bootstrap]     # TAG names should always be lowercase
 ---
 
@@ -13,7 +13,7 @@ tags: [Blazor, Blazor Server, Razor Component, Bootstrap]     # TAG names should
 **Blazor**는 Microsoft에서 개발한 **오픈소스 웹 개발 프레임워크**이다. 가장 큰 특징으로는 **.NET Core 기반의 C#으로 웹 앱을 개발할 수 있다.**
 
 Blazor에서는 Blazor Server와 Blazor Client(WebAssembly) 형식이 있다.
- 
+
 ### **Blazor Server**
 
 Blazor Server는 ASP.NET Core 서버와 Razor 엔진을 이용한 에디션으로, 서버에서 대부분의 렌더링과 프로세싱이 이루어지는 것이 특징이다.
