@@ -1,5 +1,5 @@
 ---
-title: "[멀티쓰레드 프로그래밍] Interlocked"
+title: "[멀티쓰레드] Interlocked"
 author:
   name: define_chan
   link: https://eucha09.github.io/about/

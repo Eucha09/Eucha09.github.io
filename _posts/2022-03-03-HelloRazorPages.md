@@ -1,5 +1,5 @@
 ---
-title: "[ASP.NET Core 둘러보기] Hello Razor Pages"
+title: "[ASP.NET Core] Hello Razor Pages"
 author:
   name: define_chan
   link: https://eucha09.github.io/about/

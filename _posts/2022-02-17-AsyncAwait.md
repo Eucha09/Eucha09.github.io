@@ -1,5 +1,5 @@
 ---
-title: "[고급 C# 문법] Async, Await"
+title: "[고급 C#] Async, Await"
 author:
   name: define_chan
   link: https://eucha09.github.io/about/

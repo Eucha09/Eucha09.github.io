@@ -1,5 +1,5 @@
 ---
-title: "[ASP.NET Core 둘러보기] Hello Blazor Server"
+title: "[ASP.NET Core] Hello Blazor Server"
 author:
   name: define_chan
   link: https://eucha09.github.io/about/

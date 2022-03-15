@@ -1,5 +1,5 @@
 ---
-title: "[Blazor 입문] Parameter, Ref, EventCallback"
+title: "[Blazor] Parameter, Ref, EventCallback"
 author:
   name: define_chan
   link: https://eucha09.github.io/about/
