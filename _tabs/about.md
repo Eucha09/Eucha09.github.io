@@ -18,7 +18,7 @@ Someday, I want to invite you to the world I created.
 
 ### 🛠 Tech Stack
 
-C/C++, C#, Unity, HTML5, CSS3, Github
+C/C++, C#, Unity, HTML, CSS, Git, Github
 
 ### ✨ Activity
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=define_chan)](https://solved.ac/define_chan)
