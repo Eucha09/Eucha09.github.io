@@ -64,7 +64,7 @@ Cascading Parameter는 상위 Component에서 원하는 수의 하위 Component�
 값을 받을 때는 Parameter로 받을 변수 위에 [CascadingParameter]를 붙이고 받을 CascadingValue 이름을 지정한다.   
 Parameter로 받을 변수는 프로퍼티로 선언해야 한다.
 
-## **예제코드(User 관리 페이지)**
+## **Cascading Parameter 실습 (User 관리 페이지)**
 
 이전 포스트에서 구현해놓은 User 관리 페이지에다 테마 색상 옵션을 추가해 간단하게 User 이름 색상만 바꾸어 보자.
 
