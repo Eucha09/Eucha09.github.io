@@ -18,7 +18,7 @@ Blazor Templated Component는 하나 이상의 UI 템플릿을 매개 변수로 
 매번 코드 자체를 복사하여 사용해도 되지만   
 저 테이블 구조를 템플릿화하여 어디에서든지 저 구조를 사용할 수 있게 한다면 좀 더 효율적일 것이다.
 
-![FetchData](/assets/img/posts/webserver/Blazor_FetchDAta.png){: w="800"}
+![FetchData](/assets/img/posts/webserver/Blazor_FetchData.png){: w="800"}
 _테이블 구조_
 
 ## **Templated Component 실습 (FetchData.razor)**
