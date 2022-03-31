@@ -15,20 +15,13 @@ tags: [Blazor, SPA, Rounter]     # TAG names should always be lowercase
 ![SPA](/assets/img/posts/webserver/SPA.png){: w="500"}
 _SPA_
 
-이전의 전통적인 방식에서는 처음 웹홈페이지에 접속하면 서버에서는 그에 맞는 HTML 정보를 전달해준다. 그러고 다른 페이지에 들어간다거나 하면 서버에 요청해 또 그에 맞는 HTML 정보를 받는다. 그러다보니 매번 Page Reload가 발생하게 된다.
+이전의 전통적인 방식에서는 처음 웹홈페이지에 접속하면 서버에서는 그에 맞는 HTML 정보를 전달해준다. 그러고 다른 페이지에 들어간다거나 하면 서버에 요청해 또 그에 맞는 HTML 정보를 받는다. 그렇다보니 동일한 데이터도 계속 받게되는 일이 발생하게 된다.
 
-예를 들어 네이버 웹툰에 들어가 아무 메뉴나 눌러보면 매번 페이지 자체가 Reload되는 것을 볼 수 있다.   
-![Page Reload](/assets/img/posts/webserver/PageReload.png){: w="400"}
-_[네이버 웹툰](https://comic.naver.com/index) Page Reload_
+예를 들어 웹사이트에서 보통 다른 페이지로 이동할 때 상단 바 또는 사이드 메뉴는 바뀌지 않는 경우가 많은데 이러한 부분들도 매번 똑같은 데이터를 받고 Reload를 하는 것이다.
 
-그러나 SPA 방식에서는 처음 접속할때만 서버로부터 필요한 HTML 정보들을 받고 이후에는 AJAX를 통해 데이터만 요청하고 받아 클라이언트에서 렌더링하여 사용자에게 보여준다.
+그러나 SPA 방식에서는 처음 접속할때만 서버로부터 필요한 HTML 정보들을 받고 이후에는 AJAX를 통해 데이터만 요청하고 받아 클라이언트에서 렌더링하여 사용자에게 보여준다. 쉽게 말해 변하는 내용 부분만 따로 받고 렌더링해서 보여준다는 것이다.
 
 * AJAX(Asynchronous Javascript And XML) - Javascript 비동기 통신, XML 데이터를 주고 받는 기술
-
-Blazor Server 프로젝트를 생성해 실행시켜보면 차이를 볼 수 있다.   
-![Blazor SPA](/assets/img/posts/webserver/Blazor_FetchData.png){: w="800"}
-_[Blazor Server 프로젝트 생성](https://eucha09.github.io/posts/HelloBlazorServer/)_
-이런저런 메뉴들을 아무리 눌러봐도 Page Reload는 발생하지 않는다.
 
 ## **Blazor 구조**
 
