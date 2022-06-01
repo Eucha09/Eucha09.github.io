@@ -5,7 +5,7 @@ author:
   link: https://eucha09.github.io/about/
 date: 2022-05-30 15:51:00 +0900
 categories: [서버, 멀티쓰레드 프로그래밍]
-tags: [Context Switching]     # TAG names should always be lowercase
+tags: [Lock, Context Switching]     # TAG names should always be lowercase
 ---
 
 ## **Context Switching**
